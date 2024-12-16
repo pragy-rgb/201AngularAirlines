@@ -251,3 +251,7 @@ input:focus {
 .google {
     background: #db4437;
 }
+.container { 
+    display: flex; 
+    gap: 10px; 
+}

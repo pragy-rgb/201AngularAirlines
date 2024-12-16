@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-login',
@@ -9,5 +12,5 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
-
+  //faUser = faUser;
 }
